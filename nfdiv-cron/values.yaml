@@ -1,6 +1,6 @@
 job:
   disableActiveClusterCheck: true
-  image: hmctspublic.azurecr.io/nfdiv/case-api:latest
+  image: hmctsprod.azurecr.io/nfdiv/case-api:latest
   aadIdentityName: nfdiv
   keyVaults:
     nfdiv:

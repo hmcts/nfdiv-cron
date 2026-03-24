@@ -24,6 +24,8 @@ jobs:
           chartName: nfdiv-cron
           chartReleaseName: nfdiv-cron-ci-test
           chartNamespace: chart-tests
+          aksCluster: cft-preview-00-aks
+          aksResourceGroup: cft-preview-00-rg
 
   - job: Release
     # Make sure we have a tag to run this job
